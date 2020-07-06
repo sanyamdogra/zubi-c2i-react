@@ -23,8 +23,8 @@ const DataList = (props) => {
 
   return (
     <div className={styles.container}>
-      <div>DataList</div>
-      <div>{displayLists()}</div>
+      {/* <div>DataList</div> */}
+      <div className={styles.listWrapper}>{displayLists()}</div>
     </div>
   );
 };

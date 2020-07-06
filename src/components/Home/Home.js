@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      <h1> I'm coming Home</h1>
+      {/* <h1> I'm coming Home</h1> */}
       <DataList dataList={data} selected={selected} setSelected={setSelected} />
     </div>
   );

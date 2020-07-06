@@ -8,3 +8,6 @@
 .alertWrapper{
     cursor: pointer;
 }
+.listWrapper{
+    margin-top: 1em;
+}
